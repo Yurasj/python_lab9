@@ -1,4 +1,4 @@
-from python_lab9.Vehicles.Wheeled_transport.Wheeled_transport import Wheeled_transport
+from Vehicles.Wheeled_transport.Wheeled_transport import Wheeled_transport
 
 
 class Car(Wheeled_transport):

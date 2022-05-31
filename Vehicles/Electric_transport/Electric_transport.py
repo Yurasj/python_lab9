@@ -1,4 +1,4 @@
-from python_lab9.Vehicles.Vehicles import Vehicles
+from Vehicles.Vehicles import Vehicles
 
 
 class Electric_transport(Vehicles):

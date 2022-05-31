@@ -1,4 +1,4 @@
-from python_lab9.Vehicles.Electric_transport.Electric_transport import Electric_transport
+from Vehicles.Electric_transport.Electric_transport import Electric_transport
 
 
 class Tram(Electric_transport):

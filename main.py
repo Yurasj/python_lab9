@@ -1,11 +1,11 @@
 from Vehicles.Plane import Plane
-from Vehicles.Electric_transport.Tram import Tram
-from Vehicles.Electric_transport.Trolleybus import Trolleybus
-from Vehicles.Wheeled_transport.Car import Car
-from Vehicles.Wheeled_transport.Bus import Bus
+from Vehicles.ElectricTransport.Tram import Tram
+from Vehicles.ElectricTransport.Trolleybus import Trolleybus
+from Vehicles.WheeledTransport.Car import Car
+from Vehicles.WheeledTransport.Bus import Bus
 
 
-def main():
+def main() -> None:
     plane = Plane('plane', 100, 6700000, 'ground')
     tram = Tram('tram', 40, 430000, 140)
     trolleybus = Trolleybus('trolleybus', 27, 310000, 113)
@@ -16,6 +16,7 @@ def main():
     print(trolleybus)
     print(car)
     print(bus)
+
 
 if __name__ == '__main__':
     main()
